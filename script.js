@@ -98,3 +98,35 @@
 // document.getElementById("p1").textContent = `My name is ${FullName}`;
 // document.getElementById("p2").textContent = `I live in ${City}`;
 // document.getElementById("p3").textContent = `I have a car: ${car} `;
+
+// ----------OPERADORES ARITMÉTICOS 12/02/24--------------------
+
+// let students = 30;
+
+// students = students + 1;
+// //or students += 1; or students++;
+
+// students = students - 1;
+// //or students -= 1; or students--;
+
+// students = students * 2;
+// //or students *= 2; or
+
+// students = students / 2;
+// //or students /= 2;
+
+// students = students ** 2; //(students elevado a 2)
+// //or students **= 2;
+
+// console.log(students);
+
+// -----------------OPERADORES DE PRECEDÊNCIA-----------------
+
+// 1. Parênteses ()
+// 2. Expoentes
+// 3. Multiplicação , Divisão e Módulo
+// 4. Adição e Subtração
+
+// let result = 1 + 2 * 3 + 4 ** 2;
+
+// console.log(result)
