@@ -55,8 +55,6 @@
 
 // window.alert("flashback");
 
-
-
 // ------------------11/02/2024------------------------
 // let x = 100;
 
@@ -130,3 +128,35 @@
 // let result = 1 + 2 * 3 + 4 ** 2;
 
 // console.log(result)
+
+// -----------Maneira fácil de fazer um User Input---13/02/2024-----------
+// let username = window.prompt("What's your name?");
+
+// console.log("Welcome, " + username);
+
+// let user = window.prompt("What´s your name?");
+// let city = window.prompt("Where do you live?");
+
+// document.getElementById("myh1").textContent = "Nice to meet you, " + user + "!";
+
+// document.getElementById("myP").textContent =  city + " is a great place to live!";
+
+// alert("Welcome, " + user + ", nice to meet you!");
+
+// alert("You are " + age + " years old!");
+
+// let user;
+
+// document.getElementById("myBtn").onclick = function () {
+//   user = document.getElementById("myText").value;
+//   console.log("Nice to meet you, " + user + "!");
+// };
+
+
+// ----------------------Maneira mais avançada para se utilizar o User Input---------------------
+// let username;
+
+// document.getElementById("myButton").onclick = function () {
+//   username = document.getElementById("myInput").value;
+//     document.getElementById("myh1").textContent = "Welcome," + username
+// };
