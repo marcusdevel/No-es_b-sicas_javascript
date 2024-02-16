@@ -152,7 +152,6 @@
 //   console.log("Nice to meet you, " + user + "!");
 // };
 
-
 // ----------------------Maneira mais avançada para se utilizar o User Input---------------------
 // let username;
 
@@ -160,3 +159,31 @@
 //   username = document.getElementById("myInput").value;
 //     document.getElementById("myh1").textContent = "Welcome," + username
 // };
+
+// -----------------Type conversion----------------13/02/2024
+
+// let age = window.prompt("How old are you?");
+
+// age = Number(age); //converte para number
+
+// age += 4;
+// console.log(age, typeof age);
+
+
+
+
+
+
+// ----------------------16/02/2024-----------------
+alert("Hello");
+
+var nome = window.prompt("What's your name?");
+document.getElementById("MYh1").textContent = `My name is ${nome}`;
+
+var age = window.prompt("How old are you?");
+
+document.getElementById("age").textContent = `I am  ${age}`;
+
+var place = window.prompt("Where do you live?");
+
+document.getElementById("place").textContent = `I live in  ${place}`;
