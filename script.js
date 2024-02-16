@@ -169,21 +169,25 @@
 // age += 4;
 // console.log(age, typeof age);
 
-
-
-
-
-
 // ----------------------16/02/2024-----------------
-alert("Hello");
+// alert("Hello");
 
-var nome = window.prompt("What's your name?");
-document.getElementById("MYh1").textContent = `My name is ${nome}`;
+// var nome = window.prompt("What's your name?");
+// document.getElementById("MYh1").textContent = `My name is ${nome}`;
 
-var age = window.prompt("How old are you?");
+// var age = window.prompt("How old are you?");
 
-document.getElementById("age").textContent = `I am  ${age}`;
+// document.getElementById("age").textContent = `I am  ${age}`;
 
-var place = window.prompt("Where do you live?");
+// var place = window.prompt("Where do you live?");
 
-document.getElementById("place").textContent = `I live in  ${place}`;
+// document.getElementById("place").textContent = `I live in  ${place}`;
+
+
+let username;
+
+
+document.getElementById("myBtn").onclick = function(){
+username = document.getElementById("myInput").value
+    alert("Welcome, " + username);
+}
